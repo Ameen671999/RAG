@@ -1,0 +1,6 @@
+Universal character support: UTF-8 can represent every character in the Unicode standard, making it ideal for websites and applications that need to support multiple languages.
+ASCII compatibility: It is backward-compatible with ASCII. The first 128 characters are the same in both encodings, meaning existing ASCII text is already valid UTF-8, which simplifies migration and handling.
+Efficient storage: For common characters like those in the English alphabet, UTF-8 uses only one byte, which is very efficient. It only uses more bytes (two to four) for characters outside of the ASCII range.
+Self-synchronization: UTF-8 is designed to be self-synchronizing, meaning a program can find the beginning of a character even if it starts reading in the middle of a sequence of bytes, which helps in recovering from errors.
+Web standard: UTF-8 is the dominant character encoding on the World Wide Web and is the default for many systems, including HTML, XML, and *nix-based platforms.
+Reduced bugs and testing: By using a single, universal code page for internationalization, it reduces localization
